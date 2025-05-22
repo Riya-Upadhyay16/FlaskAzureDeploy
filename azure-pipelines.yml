@@ -33,6 +33,6 @@ stages:
 
           - task: AzureWebApp@1
             inputs:
-              azureSubscription: 'My-Service-Connection'
+              azureSubscription: 'FlaskDeployConnection'
               appName: 'riyas-cute-app'
               package: '$(System.DefaultWorkingDirectory)/app.zip'
